@@ -7,13 +7,14 @@
 - Haz la llamada al método obtenDatos */
 
 class Estudiante{
-    constructor(nombre,asignaturas){
-    this.nombre= nombre
-    this.asignaturas= ["Javascript","HTML","CSS"]}
-
-    obtenDatos(){
-        new Estudiante(this.nombre,this.asignaturas)
+    nombre= "Tom"
+    asignaturas= ["Javascript","HTML","CSS"]}
+  obtenDatos() {
+        return {
+            nombre: this.nombre,
+            asignaturas: this.asignaturas
+        }
     }
 }
-let otroestudiante= new Estudiante("Tomas",)
-otroestudiante.obtenDatos
+let otroestudiante= new Estudiante()
+console.log(otroestudiante.obtenDatos())
