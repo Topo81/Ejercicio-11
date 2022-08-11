@@ -8,7 +8,7 @@
 
 class Estudiante{
     nombre= "Tom"
-    asignaturas= ["Javascript","HTML","CSS"]}
+    asignaturas= ["Javascript","HTML","CSS"]
   obtenDatos() {
         return {
             nombre: this.nombre,
